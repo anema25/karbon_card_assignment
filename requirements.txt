@@ -1,0 +1,7 @@
+langgraph
+langchain
+langchain_google_genai
+pandas
+pdfplumber
+ipython
+lark
