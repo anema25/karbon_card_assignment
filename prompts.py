@@ -1,6 +1,7 @@
 # prompts.py
 
 PLAN_PROMPT = """
+<<<<<<< HEAD
 You are an expert Python developer specializing in financial data extraction from PDF documents.
 Your goal is to create a plan to write a Python parser for a given bank statement PDF.
 
@@ -28,6 +29,7 @@ Create a concise, step-by-step plan to write the Python parser. Focus on:
 {error_feedback}
 
 Your plan should be clear and actionable for a code generation model to follow.
+c3dcd4e (Implement self-correcting agent with Groq API)
 """
 
 CODE_GENERATION_PROMPT = """
@@ -45,6 +47,7 @@ You are a Python code generation expert. Based on the provided plan, write the c
 
 **STRICT REQUIREMENTS:**
 - The final output must be only the raw Python code. Do not wrap it in markdown backticks or any other formatting.
+<<<<<<< HEAD
 - Ensure numeric columns (`Debit`, `Credit`, `Balance`) are converted to floats and nulls are handled correctly (e.g., filled with 0.0).
 - Ensure the 'Date' column is converted to datetime objects.
 """
