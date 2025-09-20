@@ -15,7 +15,7 @@ The agent operates in a self-correcting loop, allowing it to refine its approach
 
 ---
 
-### 🚀 How to Run
+###  How to Run
 
 Follow these 5 steps to run the agent and generate a parser for the ICICI bank statement.
 
